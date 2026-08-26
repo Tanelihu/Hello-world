@@ -1,0 +1,8 @@
+print("Anna suorakulmion kanta")
+kanta = int(input())
+print("Anna suorakulmion korkeus")
+korkeus = int(input())
+Piiri = 2 * kanta + 2 * korkeus
+A = kanta * korkeus
+print("Suorakulmion piiri on: " + str(Piiri))
+print("Suorakulmion pinta-ala on: " + str(A))

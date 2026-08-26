@@ -1,0 +1,5 @@
+print("Anna säde")
+x = input()
+pi = 3.14
+A = pi * (float(x) ** 2)
+print(A)

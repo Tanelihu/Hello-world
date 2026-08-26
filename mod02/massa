@@ -1,0 +1,13 @@
+print("anna leiviskä")
+leiviskä = int(input())
+print("anna naula")
+naula = int(input())
+print("anna luoti")
+luoti = int(input())
+leiviskä_kg = leiviskä * 20 * 32 * 13.3 / 1000
+naula_kg = naula * 32 * 13.3 / 1000
+luoti_kg = luoti * 13.3 / 1000
+paino = leiviskä_kg + naula_kg + luoti_kg
+kokonaisluku = int(paino)
+gramma = (paino - kokonaisluku) * 1000
+print("Massa on: " + str(kokonaisluku) + " kilogrammaa ja " + str(gramma) + " grammaa")
