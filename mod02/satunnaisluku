@@ -1,4 +1,4 @@
 import random
-print(random.randint(0, 9))
+print(random.randint(000, 999))
 number = random.randint(1000,6000)
 print(number)
