@@ -1,0 +1,50 @@
+# kysytään pelaajan tiedot ja tallennetaan ne muuttujiin
+
+nimi = input("Anna nimesi: ")
+ikä = input("Anna ikäsi: ")
+
+# tulostetaan pelaajan tiedot konsoliin
+
+print(f"Pelaajan nimi on {nimi} ja ikä on {ikä} vuotta.")
+
+# tarkistetaan, onko pelaaja täysi-ikäinen
+
+if int(ikä) < 12:
+    print("peli vaatii vähintään 12-ikäisyyden, peli sammuu")
+else:
+    print("Tervetuloa SmarttiRulettiin!")
+
+# kun pelaaja todistaa olevansa täysi-ikäinen, niin päävalikko aukeaa
+
+    while True:
+        print("Päävalikko:")
+        print("Aloita peli")
+        print("Ohjeet")
+        print("Rahat")
+        print("Asetukset")
+        print("Poistu")
+
+        komento = input("Valitse toiminto: ")
+
+        if komento == "Poistu":
+            print("Poistutaan pelistä")
+            break
+
+        elif komento == "Aloita peli":
+            print("Peli alkaa!")
+
+           
+        elif komento == "Ohjeet":
+            print("Pelissä on tarkoitus kerätä rahaa tietovisailulla")
+            print("Tarkoitus on kerätä 50 kolikkoa, "
+                "jolla pelaaja pystyy ostamaan älylasit ja peli on voitettu")
+            print("Pelissä voidaan myös pyörittää rulettia visailussa voitetuilla rahoilla " \
+            "joka voi tuoda lisää rahaa tai menettää niitä")
+          
+        elif komento == "Rahat":
+            print("Rahat-valikko...")
+
+# lompakon saldo näkyy täällä kunhan saan sen valmiiksi ensi kerralle
+
+        elif komento == "Asetukset":
+            print("Asetukset-valikko...")
