@@ -124,7 +124,7 @@ def liiku(taito, paikka):
     elif valinta == "3" and taito >= 8:
         print("Menit SM-kisoihin.")
         return "sm-kisat"
-    elif valinta == "4" and taito >= 10:
+    elif valinta == "4" and taito >= 12:
         print("Menit MM-kisoihin!")
         return "mm-kisat"
     else:
